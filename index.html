@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta author="Steve P. Olson">
+  <meta name="description" content="Steve P. Olson Web Development Portfolio">
+  <meta name="keywords" content="Steve P. Olson, Web Development, Development, Web Developer">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178423723-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-178423723-1');
+  </script>
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"/>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Steve P. Olson</title>
+</head>
+
+<body>
+  <!--*** NAVIGATION ***-->
+  <nav>
+    <div class="logo">
+      <h4><a href="#">Steve P. Olson</a></h4>
+    </div>
+    <ul class="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#myWork">My Work</a></li>
+      <li><a href="#aboutMe">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="/Resume/Resume_Steven_P_Olson_1-6-21.pdf" target="_blank">Resume</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+
+  <!--*** LANDING ***-->
+  <section id="landing">
+    <div class="landingOverlay">
+      <header>
+        <h1 id="title">Steve P. Olson</h1>
+        <p id="subHeading" >Web Developer</p>
+        <div class="landingButtons">
+          <a href="#myWork" class="btn animated slideInLeft" id="projectBtn">
+            View Projects
+          </a>
+          <a href="/Resume/Resume_Steven_P_Olson_1-6-21.pdf" target="_blank" class="btn animated slideInRight" id="resumeBtn">
+            View Resume
+          </a>
+        </div>
+        <ul class="icons">
+          <li>
+            <a
+              class="contactIcon animated bounceInDown githubLink"
+              href="https://github.com/stevepo74"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github-alt" title="Github Logo"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contactIcon animated bounceInDown linkedInLink"
+              href="https://www.linkedin.com/in/steve-p-olson/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-linkedin" title="LinkedIn Logo"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contactIcon animated bounceInDown twitterLink"
+              href="https://twitter.com/StevePOlson3"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-twitter" title="Twitter Logo"></i>
+            </a>
+          </li>
+        </ul>
+
+        <span class="emailSpan">
+          Email: <a href="mailto:steveopr@earthlink.net" class="emailLink">steveopr@earthlink.net</a>
+        </span>
+
+      </header>
+    </div>
+  </section>
+
+  <!--*** MY WORK ***-->
+  <div id="pageContainer">
+    <section id="myWork">
+      <h2 class="sectionHeading">Projects</h2>
+      <div id="cardGrid">
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/Random-Quote-Machine-Screenshot.png" alt="Random Quote Machine Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Quote Machine</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://codepen.io/stevepo74/full/poyNJEr"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://codepen.io/stevepo74/pen/poyNJEr"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on CodePen
+                </a>
+              </div>
+              <p class="description">Fetch quotes via API with option to share on Twitter</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                  <li class="skill">Forismatic API</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/Drum_Machine_Screenshot.png" alt="Drum Machine Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Drum Machine</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://codepen.io/stevepo74/full/abNwmJe"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://codepen.io/stevepo74/pen/abNwmJe"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on CodePen
+                </a>
+              </div>
+              <p class="description">Highly responsive drums can be played on keyboard or drumstick pointer</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/JavaScript-Calculator.png" alt="JS Calculator Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">JavaScript Calculator</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://stevepo74.github.io/JavaScriptCalculator2020/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://github.com/stevepo74/JavaScriptCalculator2020"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View On GitHub
+                </a>
+              </div>
+              <p class="description">Calculator using Vanilla JavaScript</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">Bootstrap</li>
+                  <li class="skill">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/Product-Landing-Screenshot.png" alt="Product Landing Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Product Landing Page</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://stevepo74.github.io/productLandingPage/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://github.com/stevepo74/productLandingPage"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View On GitHub
+                </a>
+              </div>
+              <p class="description">Simple Product Landing Page project on FreeCodeCamp.org</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/Markdown-Previewer.png" alt="Markdown Previewer Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Markdown Live Previewer</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://codepen.io/stevepo74/full/LYNxwpR"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://codepen.io/stevepo74/pen/LYNxwpR"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View On CodePen
+                </a>
+              </div>
+              <p class="description">Markdown Live Previewer using React</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">React</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/Budget-Expense-App-Screenshot.png" alt="Budget Expense App Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Budget/Expense App</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://stevepo74.github.io/budgetApp/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://github.com/stevepo74/budgetApp"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View On GitHub
+                </a>
+              </div>
+              <p class="description">App shows balance, income and outcome. Features entry dashboard, circular chart and local storage</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/Note-Taker-App-Screenshot.png" alt="Note Taker App Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Note Taker App</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://stevepo74.github.io/noteTakerApp/#"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://github.com/stevepo74/noteTakerApp"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View On GitHub
+                </a>
+              </div>
+              <p class="description">Simple note taking app using Vanilla JavaScript</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/Memory-Card-Game-Screenshot.png" alt="Memory Card Game Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Memory Card Game</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://stevepo74.github.io/memoryCardGame/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://github.com/stevepo74/memoryCardGame"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View On GitHub
+                </a>
+              </div>
+              <p class="description">App with no frameworks or libraries- just Vanilla JavaScript</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/Pomodoro-Clock-Screenshot.png" alt="Pomodoro Clock Screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Pomodoro Clock</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://codepen.io/stevepo74/full/abNxvBM"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://codepen.io/stevepo74/pen/abNxvBM"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View On CodePen
+                </a>
+              </div>
+              <p class="description">Pomodoro (25 + 5) Clock app with React</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                  <li class="skill">React</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--*** ABOUT ME ***-->
+    <section id="aboutMe">
+      <h2 class="sectionHeading">About Me</h2>
+      <p class="sectionInfo">
+        Hello, my name is Steve Olson and I am a web developer. I enjoy creating new things and am always up for a challenge. Watching ideas and concepts come to life is one of my favorite parts of development. As a lifelong learner, I look forward to expanding my skills and seeking out new ones!
+      </p>
+    </section>
+
+
+    <!--*** CONTACT ***-->
+    <section id="contact">
+      <h2 class="sectionHeading">Get In Touch</h2>
+      <p class="sectionInfo">
+        If you are interested in my work, it would be great to hear from you. Please contact me by filling out the form, or through any of the links below:
+      </p>
+
+      <form name='contactForm' action='/thankyou' action="contact.form.handler.php" method='post'>
+        <input type='hidden' name='form-name' value='contactForm' />
+        <div class="formGroup">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name..." required>
+        </div>
+
+        <div class="formGroup">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email..." required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Message..." cols="30" rows="10" required></textarea>
+        </div>
+
+        <input type="submit" value="Submit" class="btn" id="formSubmit">
+      </form>
+
+      <div class="contact">
+        <ul class="icons">
+          <li>
+            <a
+              class="contactIcon animated bounceInDown githubLink"
+              href="https://github.com/stevepo74"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github-alt" title="Github Logo"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contactIcon animated bounceInDown linkedInLink"
+              href="https://www.linkedin.com/in/steve-p-olson/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-linkedin" title="LinkedIn Logo"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contactIcon animated bounceInDown twitterLink"
+              href="https://twitter.com/StevePOlson3"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-twitter" title="Twitter Logo"></i>
+            </a>
+          </li>
+        </ul>
+
+        <span class="emailSpan">
+          Email: <a href="mailto:steveopr@earthlink.net" class="emailLink">steveopr@earthlink.net</a>
+        </span>
+      </div>
+
+    </section>
+  </div>
+
+  <!--*** SCRIPTS ***-->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
