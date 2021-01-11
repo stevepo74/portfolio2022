@@ -472,7 +472,17 @@
         If you are interested in my work, it would be great to hear from you. Please contact me by filling out the form, or through any of the links below:
       </p>
 
-      <form name='contactForm' action='/thankyou' action="contact.form.handler.php" method='post'>
+      <form action="https://formspree.io/f/meqpvryw" method="POST">
+  <label for="name">Name</label>
+  <input type="text" name="name" placeholder="Your name..." required>
+  <label for="email">Email</label>
+  <input type="email" name="_replyto" placeholder="Your email..." required>
+  <label for="message">Message</label>
+  <textarea name="message" placeholder="Your message here..." required></textarea>
+  <input type="submit" value="Send">
+</form>
+
+      <!-- <form name='contactForm' action='/thankyou' action="contact.form.handler.php" method='post'>
         <input type='hidden' name='form-name' value='contactForm' />
         <div class="formGroup">
           <label for="name">Name</label>
@@ -490,7 +500,7 @@
         </div>
 
         <input type="submit" value="Submit" class="btn" id="formSubmit">
-      </form>
+      </form> -->
 
       <div class="contact">
         <ul class="icons">
