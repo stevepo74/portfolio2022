@@ -58,6 +58,10 @@ a {
   outline: 0;
 }
 
+#send-button {
+  background-color: gold;
+}
+
 #pageContainer {
   padding: 5em;
   padding-top: 0;
